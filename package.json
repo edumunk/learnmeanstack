@@ -1,0 +1,38 @@
+{
+  "name": "learningmeanstack",
+  "version": "1.0.0",
+  "description": "Eduardo's rep to learn mean stack ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edumunk/learnmeanstack.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/edumunk/learnmeanstack/issues"
+  },
+  "homepage": "https://github.com/edumunk/learnmeanstack#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "webpack": "^3.7.1"
+  }
+}
