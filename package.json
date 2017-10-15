@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
-    "dev": "webpack -md",
+    "dev": "webpack -wd",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/edumunk/learnmeanstack#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
     "mongodb": "^2.2.33",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
